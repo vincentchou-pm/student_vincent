@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <h1>Course Sign Up Page</h1>
+    <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+    First Name
+    <input type="text" name="first_name" required>
+    Last Name
+    <input type="text" name="last_name" required>
+    Password
+    <input type="password" name="password" required>
+    Email
+    <input type="email" name="email" required>
+    <p>Are you over the age of 18?</p>
+    <input type="radio" name="age" value="yes" required> Yes
+    <input type="radio" name="age" value="no"> No
+    <p>Do you have a Credit Card or PayPal?</p>
+    <select name="payment_method" required>
+        <option value="credit_card">Credit Card</option>
+        <option value="paypal">PayPal</option>
+        <option value="none">None</option>
+    </select>
+    <button type="submit">Submit</button>
+    
+</body>
+</html>
+
