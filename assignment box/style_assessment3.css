@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(192, 192, 193);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    width: 900px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box-a {
+    gap: 10px;
+}
+
+.box-a .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.box-a .content img {
+    margin-bottom: 10px;
+}
+
+.box-a .content h1 {
+    font-size: 16px;
+    margin: 0 0 10px;
+    text-align: left;
+}
+
+.box-a .content p {
+    font-size: 14px;
+    margin: 0;
+    text-align: left;
+}
+
+
+
+.box-b {
+    gap: 30px;
+}
+
+.box-b .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    height: 200px;
+}
+
+.box-b .content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    color: orange;
+    margin: 0 0 10px;
+    text-align: left;
+}
+
+.box-b .content p {
+    font-size: 14px;
+    margin: 0;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-b .content img {
+    align-self: flex-start;
+    margin-top: auto;
+}

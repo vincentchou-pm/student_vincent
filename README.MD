@@ -1,1 +1,1 @@
-Halo, ini adalah repository Vincent Chou. Mahasiswa Prasetiya Mulya University tahun 2024 Jurusan Digital Business Technology.
+Halo, ini repository Vincent Chou. Mahasiswa DBT Prasmul 2024 
